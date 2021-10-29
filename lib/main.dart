@@ -5,6 +5,7 @@ import 'package:nuevo_hogar/src/pages/home.dart';
 import 'package:nuevo_hogar/src/pages/login.dart';
 import 'package:nuevo_hogar/src/pages/perfil.dart';
 import 'package:nuevo_hogar/src/pages/recuperar_cuenta.dart';
+import 'package:nuevo_hogar/src/pages/registro_anuncio.dart';
 import 'package:nuevo_hogar/src/pages/registro_usuario.dart';
 
 void main() => runApp(MyApp());
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         Home.routeName: (BuildContext context) =>  Home(), //home
         AnunciosAlbergues.routeName: (BuildContext context) => AnunciosAlbergues(), //anuncios-albergue
         AnunciosVeterinarias.routeName: (BuildContext context) => AnunciosVeterinarias(), //anuncios-albergue
+        RegistroAnuncio.routeName: (BuildContext context) => RegistroAnuncio(), //anuncios-albergue
         Perfil.routeName: (BuildContext context) => Perfil(), //anuncios-albergue
       },
     );

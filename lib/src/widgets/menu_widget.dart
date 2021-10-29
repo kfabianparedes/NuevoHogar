@@ -38,18 +38,18 @@ class MenuWidget extends StatelessWidget {
               ListTile(
                 leading: Icon(Icons.chat_rounded, color: _color_icono),
                 title: Text('ANUNCIOS ALBERGUES',style:_estiloTexto,),
-                onTap: () => Navigator.pushReplacementNamed(context, AnunciosAlbergues.routeName),
+                onTap: () => Navigator.pushNamed(context, AnunciosAlbergues.routeName),
               ),
               ListTile(
                 leading: Icon(Icons.chat_rounded, color: _color_icono),
                 title: Text('ANUNCIOS VETERINARIAS',style:_estiloTexto,),
-                onTap: () => Navigator.pushReplacementNamed(context, AnunciosVeterinarias.routeName),
+                onTap: () => Navigator.pushNamed(context, AnunciosVeterinarias.routeName),
 
               ),
               ListTile(
                 leading: Icon(Icons.person, color: _color_icono),
                 title: Text('PERFIL',style:_estiloTexto,),
-                onTap: () => Navigator.pushReplacementNamed(context, Perfil.routeName),
+                onTap: () => Navigator.pushNamed(context, Perfil.routeName),
               ),
               ListTile(
                 leading: Icon(Icons.logout, color: _color_icono),
